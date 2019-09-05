@@ -229,7 +229,7 @@ class ConditionalGAN:
         ax2.legend(fontsize=15, loc='upper right')
         plt.show()
         if save:
-            plt.savefig(f'figures/hist/cgan_{self.dataset_nm}_hist.png')
+            plt.savefig(f'figures/history/cgan_{self.dataset_nm}_hist.png')
         plt.close()
 
 
